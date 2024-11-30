@@ -436,8 +436,8 @@ label {
 }
 .header-action > ul > li {
   position: relative;
-  margin-left: 65px;
-  padding-left: 65px;
+  margin-left: 15px;
+  padding-left: 15px;
 }
 .header-action > ul > li:first-child {
   margin-left: 0;
@@ -517,7 +517,7 @@ label {
 }
 .header-btn .btn {
   font-size: 14px;
-  padding: 20px 45px;
+  padding: 10px 25px;
 }
 .navbar-wrap ul li .sub-menu {
   position: absolute;

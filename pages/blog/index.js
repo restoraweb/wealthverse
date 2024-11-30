@@ -13,7 +13,6 @@ export default function Home() {
 
       <LayoutBlog pageTitle={"Blog & Article"} item={"Blog"}>
         <BlogList />
-
         <BlogPagination />
       </LayoutBlog>
     </>
