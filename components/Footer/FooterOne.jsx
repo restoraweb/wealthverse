@@ -1,4 +1,5 @@
-import { scrollToTop } from "@/lib/helpers";
+import { scrollToTop } from "../../lib/helpers";
+// import { scrollToTop } from "../lib/helpers";
 import Link from "next/link";
 import React from "react";
 

@@ -1,10 +1,4 @@
 {
-  "../components/CounterArea/CounterAreaItem.jsx -> react-odometerjs": {
-    "id": "../components/CounterArea/CounterAreaItem.jsx -> react-odometerjs",
-    "files": [
-      "static/chunks/node_modules_react-odometerjs_dist_index_js.js"
-    ]
-  },
   "_app.js -> bootstrap/dist/js/bootstrap.bundle.min": {
     "id": "_app.js -> bootstrap/dist/js/bootstrap.bundle.min",
     "files": [

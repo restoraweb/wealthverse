@@ -1,4 +1,4 @@
-import { useHorizontalScroll } from "@/lib/hooks/useHorizontalScroll";
+import { useHorizontalScroll } from "../../lib/hooks/useHorizontalScroll";
 import React from "react";
 import RoadmapItem from "./RoadmapItem";
 

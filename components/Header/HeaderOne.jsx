@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import cn from "classnames";
 import $ from "jquery";
 import Link from "next/link";
-import { handleClickScroll } from "@/lib/helpers";
+import { handleClickScroll } from "../../lib/helpers";
 import { useRouter } from "next/router";
 
 let flag = true;

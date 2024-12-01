@@ -1,6 +1,6 @@
-import BlogList from "@/components/BlogList/BlogList";
-import BlogPagination from "@/components/BlogPagination/BlogPagination";
-import LayoutBlog from "@/layouts/LayoutBlog";
+import BlogList from "../components/BlogList/BlogList";
+import BlogPagination from "../components/BlogPagination/BlogPagination";
+import LayoutBlog from "../layouts/LayoutBlog";
 import Head from "next/head";
 
 export default function Home() {

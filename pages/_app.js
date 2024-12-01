@@ -1,10 +1,11 @@
-import "@/styles/bootstrap.min.css";
-import "@/styles/animate.min.css";
-import "@/styles/fontawesome-all.min.css";
-import "@/styles/react-odometer-theme.css";
-import "@/styles/default.css";
-import "@/styles/globals.css";
-import "@/styles/responsive.css";
+// import "../../styles/bootstrap.min.css";
+import "../styles/bootstrap.min.css"
+import "../styles/animate.min.css";
+import "../styles/fontawesome-all.min.css";
+import "../styles/react-odometer-theme.css";
+import "../styles/default.css";
+import "../styles/globals.css";
+import "../styles/responsive.css";
 import dynamic from "next/dynamic";
 import { useEffect } from "react";
 
