@@ -114,16 +114,7 @@ const HeaderOne = () => {
                         >
                           Home
                         </Link>
-                        {/* <ul className={cn("sub-menu")}>
-                          <li className={cn(pathname == "/" && "active")}>
-                            <Link href="/">Home One</Link>
-                          </li>
-                          <li
-                            className={cn(pathname == "/home-two" && "active")}
-                          >
-                            <Link href="/home-two">Home Two</Link>
-                          </li>
-                        </ul> */}
+                       
                       </li>
                       <li className={cn(hash == "about" && "active")}>
                         <Link
@@ -154,18 +145,7 @@ const HeaderOne = () => {
                       </li>
                       <li className={"menu-item-has-children"}>
                         <Link href="/blog">Blog</Link>
-                        {/* <ul className={cn("sub-menu")}>
-                          <li className={cn(pathname == "/blog" && "active")}>
-                            <Link href="/blog">Our Blog</Link>
-                          </li>
-                          <li
-                            className={cn(
-                              pathname == "/blog/blog-details" && "active"
-                            )}
-                          >
-                            <Link href="/blog/blog-details">Blog Details</Link>
-                          </li>
-                        </ul> */}
+                        
                       </li>
                       <li className={isActiveLink("#contact")}>
                         <Link
@@ -180,30 +160,14 @@ const HeaderOne = () => {
                   </div>
                   <div className={cn("header-action", "d-none d-md-block")}>
                     <ul>
-                      {/* <li className={"header-lang"}>
-                        <span className={"selected-lang"}>ENG</span>
-                        <ul className={"lang-list"}>
-                          <li>
-                            <Link href="#">IND</Link>
-                          </li>
-                          <li>
-                            <Link href="#">BNG</Link>
-                          </li>
-                          <li>
-                            <Link href="#">TUR</Link>
-                          </li>
-                          <li>
-                            <Link href="#">CIN</Link>
-                          </li>
-                        </ul>
-                      </li> */}
+                      
                       <li className={"header-btn"}>
-                        <Link href="#" className="btn">
+                        <Link href="\signIn" className="btn">
                           Sign In
                         </Link>
                       </li>
                       <li className={"header-btn"}>
-                        <Link href="#" className="btn">
+                        <Link href="\signUp" className="btn">
                           Sign Up
                         </Link>
                       </li>

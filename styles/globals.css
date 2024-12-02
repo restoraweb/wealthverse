@@ -40,7 +40,7 @@ body {
   font-size: 16px;
   color: #a4b4c3;
   font-style: normal;
-  background-color: #030b15;
+  background-color: #19013b;
   line-height: 1.75;
   overflow-x: hidden;
   -webkit-user-select: none;
@@ -585,7 +585,7 @@ label {
   top: 0;
   width: 100%;
   z-index: 99;
-  background: #030b15;
+  background: #19013b;
   -webkit-animation: 1000ms ease-in-out 0s normal none 1 running fadeInDown;
   animation: 1000ms ease-in-out 0s normal none 1 running fadeInDown;
   -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
@@ -892,7 +892,7 @@ label {
   height: 100%;
   background: linear-gradient(
     0.23deg,
-    #030b15 5.68%,
+    #19013b 5.68%,
     rgba(3, 11, 21, 0.42) 81.9%
   );
   z-index: -1;
@@ -1279,7 +1279,7 @@ label {
   z-index: -1;
 }
 .countdown-area-two .countdown-wrap .title {
-  color: #030b15;
+  color: #19013b;
   letter-spacing: -0.01em;
   font-size: 26px;
   margin-bottom: 35px;
@@ -1312,7 +1312,7 @@ label {
   margin-bottom: 5px;
   font-size: 35px;
   font-weight: 600;
-  color: #030b15;
+  color: #19013b;
   font-family: "Poppins", sans-serif;
   margin-top: -95px;
 }
@@ -1321,7 +1321,7 @@ label {
   display: block;
   text-align: center;
   font-family: "Outfit";
-  color: #030b15;
+  color: #19013b;
   font-weight: 500;
   line-height: 1;
 }
@@ -1342,7 +1342,7 @@ label {
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  color: #030b15;
+  color: #19013b;
   background: #ffffff;
   font-family: "Poppins", sans-serif;
   border: 7.5px solid #ddd;
@@ -1429,7 +1429,7 @@ label {
 .partner-wrap ul li {
   width: 100%;
   height: 123px;
-  border: 1px solid #030b1578;
+  border: 1px solid #19013b78;
   border-radius: 8px;
   display: flex;
   align-items: center;
@@ -1464,7 +1464,7 @@ label {
 }
 .section-title.section-title-two .title {
   font-size: 45px;
-  color: #030b15;
+  color: #19013b;
   line-height: 1.26;
 }
 .about-content-two p {
@@ -1478,7 +1478,7 @@ label {
 .about-content-two .about-list ul li {
   display: flex;
   align-items: baseline;
-  color: #030b15;
+  color: #19013b;
   margin-bottom: 10px;
 }
 .about-content-two .about-list ul li:last-child {
@@ -1545,7 +1545,7 @@ label {
 }
 .choose-item:hover {
   border-color: transparent;
-  background: #030b15;
+  background: #19013b;
   border: 2px solid #00c4f4;
 }
 .choose-icon {
@@ -1833,7 +1833,7 @@ label {
 .counter-content .count {
   display: flex;
   align-items: center;
-  color: #030b15;
+  color: #19013b;
   letter-spacing: -0.02em;
   font-size: 48px;
   line-height: 0.85;
@@ -1938,7 +1938,7 @@ label {
   font-size: 18px;
   font-weight: 500;
   margin-bottom: 10px;
-  color: #030b15;
+  color: #19013b;
 }
 .roadmap-content p {
   margin-bottom: 0;
@@ -2051,7 +2051,7 @@ label {
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 20px;
-  color: #030b15;
+  color: #19013b;
   line-height: 1.62;
 }
 .roadmap-wrap-two .roadmap-content p {
@@ -2376,7 +2376,7 @@ label {
   position: relative;
 }
 .faq-wrap .accordion-button:not(.collapsed) {
-  color: #030b15;
+  color: #19013b;
   background-color: #fff;
   box-shadow: none;
   border-radius: 0;
@@ -2517,7 +2517,7 @@ label {
 .blog-widget .bw-title {
   font-size: 22px;
   margin-bottom: 20px;
-  color: #030b15;
+  color: #19013b;
   letter-spacing: -0.02em;
 }
 .blog-widget .sidebar-search {
@@ -2785,7 +2785,7 @@ label {
 }
 .comment-wrap .title {
   font-size: 20px;
-  color: #030b15;
+  color: #19013b;
   margin: 0 0 30px;
 }
 .latest-comments ul li .comments-box {
@@ -3107,7 +3107,7 @@ label {
   border-radius: 11px;
   width: 100%;
   letter-spacing: -0.02em;
-  color: #030b15;
+  color: #19013b;
   font-weight: 400;
   font-size: 20px;
   padding: 17px 22px;
@@ -3158,7 +3158,7 @@ label {
   flex: 0 0 42.5%;
 }
 .newsletter-content .title {
-  color: #030b15;
+  color: #19013b;
   font-size: 32px;
   line-height: 1.5;
   margin-bottom: 0;
@@ -3178,7 +3178,7 @@ label {
   background: #f3f6fc;
   font-size: 16px;
   font-weight: 400;
-  color: #030b15;
+  color: #19013b;
   padding: 26px 215px 26px 25px;
   line-height: 1.25;
   height: 72px;
@@ -3227,7 +3227,7 @@ label {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #030b15;
+  background: #19013b;
   border: 1px solid #1f262f;
   border-radius: 50%;
   font-size: 18px;
@@ -3421,7 +3421,7 @@ label {
   margin-right: 0;
 }
 .footer-menu-two .navigation li a {
-  color: #030b15;
+  color: #19013b;
   font-weight: 500;
   font-size: 16px;
 }

@@ -19,26 +19,26 @@ const WhoWeAre = () => {
           <div className="col-lg-6">
             <div className="about-content wow fadeInRight" data-wow-delay=".2s">
               <div className="section-title mb-30">
-                <span className="sub-title" style={{color: "#030b15"}}>Why choose us</span>
-                <h2 className="title" style={{color: "#030b15"}}>
+                <span className="sub-title" style={{color: "#19013b"}}>Why choose us</span>
+                <h2 className="title" style={{color: "#19013b"}}>
                   What is <span>WealthVerse</span>
                 </h2>
               </div>
-              <p style={{color: "#030b15"}}>
+              <p style={{color: "#19013b"}}>
                 WealthVerse is a Networking & Affiliate Company where you
                 Explore Diverse Earning Opportunities
               </p>
-              <p style={{color: "#030b15"}}>
+              <p style={{color: "#19013b"}}>
                 We help our user Uncover diverse earning Opportunities Our
                 platform offers multiple ways to transform your time and efforts
                 into valuable rewards
               </p>
-              <p style={{color: "#030b15"}}>
+              <p style={{color: "#19013b"}}>
                 Sign up as an affiliate and start promoting any of our life
                 transforming products and you can get as high as 70% commission
                 for each sale you Made.
               </p>
-              <p style={{color: "#030b15"}}>Join Thousands of user Experiencing Giftalhub Flexible Earning Opportunities</p>
+              <p style={{color: "#19013b"}}>Join Thousands of user Experiencing Giftalhub Flexible Earning Opportunities</p>
 
               <Link href="/" className="btn">
                 Sign Up

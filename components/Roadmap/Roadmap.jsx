@@ -80,8 +80,8 @@ const Roadmap = () => {
         <div className="row justify-content-center">
           <div className="col-xl-5 col-lg-8">
             <div className="section-title text-center mb-60">
-              <span className="sub-title" style={{color: "#030b15"}}>OUr Roadmap</span>
-              <h2 className="title" style={{color: "#030b15"}}>
+              <span className="sub-title" style={{color: "#19013b"}}>OUr Roadmap</span>
+              <h2 className="title" style={{color: "#19013b"}}>
                 WealthVerse Strategy and <br /> Project <span>Plan</span>
               </h2>
             </div>

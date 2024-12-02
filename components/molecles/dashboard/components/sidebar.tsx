@@ -21,7 +21,7 @@
 // const SidebarWrapper = styled.div`
 //   width: 250px;
 //   height: 100vh;
-//   background-color: #030b15;
+//   background-color: #19013b;
 //   color: white;
 //   padding: 1rem;
 //   display: flex;
@@ -127,12 +127,15 @@ interface SidebarProps {
 
 // Styled-components for Sidebar
 const SidebarWrapper = styled.div`
-  width: 250px;
+  width: 15%;
   height: 100vh;
-  background-color: #030b15;
+  background-color: #19013b;
   color: white;
   padding: 1rem;
   display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
   flex-direction: column;
   gap: 1rem;
   border-right: 5px solid #00c4f4;
@@ -163,20 +166,13 @@ const NavItem = styled.div<{ isActive: boolean }>`
   }
 `;
 
-const Divider = styled.hr`
-  border: 0;
-  height: 1px;
-  background-color: #4f4f4f;
-  margin: 1rem 0;
-`;
-
 const Sidebar: React.FC<SidebarProps> = ({ onNavClick }) => {
   const [activePage, setActivePage] = useState<string>("dashboard");
 
   // Handle navigation and pass the selected page to the parent component
   const handleNavigation = (page: string) => {
     setActivePage(page);
-    onNavClick(page); // Notify the parent about the selected page
+    onNavClick(page); 
   };
 
   // Navigation items
@@ -198,7 +194,7 @@ const Sidebar: React.FC<SidebarProps> = ({ onNavClick }) => {
         <Image src={Logo} alt="Logo" width={200} height={50} />
       </LogoWrapper>
       <hr style={{
-        border: "2px solid #030b15", height: "1px", margin: "5px 0",
+        border: "2px solid #19013b", height: "1px", margin: "5px 0",
       }} />
       {navItems.map((item) => (
         <NavItem
